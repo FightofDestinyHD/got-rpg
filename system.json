@@ -1,0 +1,99 @@
+{
+  "id": "got-rpg",
+  "title": "Game of Thrones RPG",
+  "description": "Eigenes Game of Thrones RPG System basierend auf Excel-Charakterbogen.",
+  "version": "0.1.1",
+  
+  "url": "https://github.com/FightofDestinyHD/got-rpg",
+  "manifest": "https://raw.githubusercontent.com/FightofDestinyHD/got-rpg/main/system.json",
+  "download": "https://github.com/FightofDestinyHD/got-rpg/releases/download/v0.1.1/got-rpg.zip",
+
+  "compatibility": {
+    "minimum": "11",
+    "verified": "13"
+  },
+
+  "authors": [
+    {
+      "name": "FightofDestinyHD",
+      "url": "https://github.com/FightofDestinyHD",
+      "email": ""
+    }
+  ],
+
+  "esmodules": [
+    "module/got-rpg.js"
+  ],
+
+  "styles": [
+    "styles/got-rpg.css"
+  ],
+
+  "packs": [
+    {
+      "name": "got-weapons",
+      "label": "Waffen",
+      "path": "packs/weapons.db",
+      "type": "Item",
+      "system": "got-rpg"
+    },
+    {
+      "name": "got-armor",
+      "label": "Rüstungen",
+      "path": "packs/armors.db",
+      "type": "Item",
+      "system": "got-rpg"
+    },
+    {
+      "name": "got-gear",
+      "label": "Ausrüstung",
+      "path": "packs/gear.db",
+      "type": "Item",
+      "system": "got-rpg"
+    },
+    {
+      "name": "got-food",
+      "label": "Essen & Vorräte",
+      "path": "packs/food.db",
+      "type": "Item",
+      "system": "got-rpg"
+    },
+    {
+      "name": "got-drinks",
+      "label": "Getränke",
+      "path": "packs/drinks-static.db",
+      "type": "Item",
+      "system": "got-rpg"
+    },
+    {
+      "name": "got-medicine",
+      "label": "Medizin & Heilmittel",
+      "path": "packs/medicine.db",
+      "type": "Item",
+      "system": "got-rpg"
+    }
+  ],
+
+  "grid": {
+    "distance": 1,
+    "units": "m"
+  },
+
+  "primaryTokenAttribute": "system.attribute.verteidigung.value",
+  "secondaryTokenAttribute": "system.attribute.angriff.value",
+
+  "languages": [
+    {
+      "lang": "de",
+      "name": "Deutsch",
+      "path": "lang/de.json",
+      "system": "got-rpg"
+    },
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json",
+      "system": "got-rpg"
+    }
+  ]
+}

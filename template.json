@@ -1,0 +1,168 @@
+{
+  "Actor": {
+    "types": ["character"],
+    "character": {
+      "system": {
+        "attribute": {
+          "staerke": { "value": 0 },
+          "geschicklichkeit": { "value": 0 },
+          "intelligenz": { "value": 0 },
+          "charisma": { "value": 0 },
+          "zaehigkeit": { "value": 0 },
+          "willenskraft": { "value": 0 }
+        },
+        "fertigkeiten": {
+          "ueberreden": 0,
+          "luegen": 0,
+          "einschuechtern": 0,
+          "etikette": 0,
+
+          "nahkampf": 0,
+          "zaehigkeit": 0,
+          "geschwindigkeit": 0,
+
+          "schuetze": 0,
+
+          "fingerfertigkeit": 0,
+          "faehrtenlesen": 0,
+          "schleichen": 0,
+
+          "vorahnung": 0,
+          "beurteilung": 0,
+          "entfernungssinn": 0,
+
+          "komplexerVerstand": 0,
+          "magie": 0
+        },
+        "details": {
+          "geschlecht": "",
+          "alter": 0,
+          "haus": "",
+          "kultur": "",
+          "kontinent": "",
+          "klasse": "",
+          "adelsstand": "",
+          "beschreibung": "",
+          "groesse": "",
+          "gewicht": "",
+          "haarfarbe": "",
+          "augenfarbe": "",
+          "notizen": ""
+        },
+        "punkte": {
+          "verfuegbar": 40,
+          "ausgegeben": 0,
+          "erhalten": 0
+        },
+        "lebenspunkte": {
+          "aktuell": 100,
+          "maximum": 100
+        },
+        "ruestung": 0,
+        "waehrung": {
+          "gd": 1,
+          "sh": 100,
+          "ks": 0
+        },
+        "zustaende": {
+          "verwundet": false,
+          "erschoepft": false,
+          "vergiftet": false,
+          "panisch": false,
+          "betrunken": false,
+          "bewusstlos": false,
+          "blutend": false,
+          "verkrueppelt": false,
+          "verbrannt": false,
+          "erfroren": false,
+          "verhungert": false,
+          "verdurstet": false,
+          "krank": false,
+          "wahnsinnig": false,
+          "verflucht": false
+        },
+        "haus": {
+          "name": "",
+          "wappen": "",
+          "motto": "",
+          "sitz": "",
+          "region": "",
+          "oberhaus": "",
+          "gruendung": "",
+          "ressourcen": "",
+          "militaer": "",
+          "einfluss": 0,
+          "reichtum": 0,
+          "ansehen": 0,
+          "geschichte": "",
+          "vasallen": ""
+        },
+        "testwert": ""
+      }
+    }
+  },
+  "Item": {
+    "types": ["weapon", "armor", "gear"],
+    "weapon": {
+      "system": {
+        "equipped": false,
+        "gewicht": 0,
+        "preis": { "gd": 0, "sh": 0, "ks": 0 },
+        "beschreibung": "",
+        "schaden": "",
+        "reichweite": "",
+        "boni": {
+          "attribute": {
+            "staerke": 0,
+            "geschicklichkeit": 0,
+            "intelligenz": 0,
+            "charisma": 0,
+            "zaehigkeit": 0,
+            "willenskraft": 0
+          },
+          "fertigkeiten": {}
+        }
+      }
+    },
+    "armor": {
+      "system": {
+        "equipped": false,
+        "gewicht": 0,
+        "preis": { "gd": 0, "sh": 0, "ks": 0 },
+        "beschreibung": "",
+        "schutz": "",
+        "verteidigung": 0,
+        "boni": {
+          "attribute": {
+            "staerke": 0,
+            "geschicklichkeit": 0,
+            "intelligenz": 0,
+            "charisma": 0,
+            "zaehigkeit": 0,
+            "willenskraft": 0
+          },
+          "fertigkeiten": {}
+        }
+      }
+    },
+    "gear": {
+      "system": {
+        "equipped": false,
+        "gewicht": 0,
+        "preis": { "gd": 0, "sh": 0, "ks": 0 },
+        "beschreibung": "",
+        "boni": {
+          "attribute": {
+            "staerke": 0,
+            "geschicklichkeit": 0,
+            "intelligenz": 0,
+            "charisma": 0,
+            "zaehigkeit": 0,
+            "willenskraft": 0
+          },
+          "fertigkeiten": {}
+        }
+      }
+    }
+  }
+}
